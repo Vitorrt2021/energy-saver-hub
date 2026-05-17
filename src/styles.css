@@ -59,24 +59,33 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --background-image-gradient-brand: var(--gradient-brand);
+  --background-image-gradient-hero: var(--gradient-hero);
+  --shadow-elegant: var(--shadow-elegant);
+  --shadow-glow: var(--shadow-glow);
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.875rem;
+  --background: oklch(0.99 0.01 95);
+  --foreground: oklch(0.18 0.03 250);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.18 0.03 250);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.18 0.03 250);
+  --primary: oklch(0.62 0.18 55);
+  --primary-foreground: oklch(0.99 0.01 95);
+  --primary-glow: oklch(0.78 0.18 80);
+  --secondary: oklch(0.96 0.02 90);
+  --secondary-foreground: oklch(0.25 0.04 250);
+  --muted: oklch(0.96 0.02 90);
+  --muted-foreground: oklch(0.48 0.03 250);
+  --accent: oklch(0.85 0.16 90);
+  --accent-foreground: oklch(0.2 0.03 250);
+  --gradient-brand: linear-gradient(135deg, oklch(0.62 0.18 55), oklch(0.78 0.18 80));
+  --gradient-hero: linear-gradient(160deg, oklch(0.99 0.01 95) 0%, oklch(0.96 0.04 85) 50%, oklch(0.93 0.07 80) 100%);
+  --shadow-elegant: 0 20px 50px -20px oklch(0.62 0.18 55 / 0.35);
+  --shadow-glow: 0 10px 30px -10px oklch(0.78 0.18 80 / 0.5);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
   --border: oklch(0.929 0.013 255.508);
